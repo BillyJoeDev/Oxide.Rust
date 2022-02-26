@@ -1,6 +1,6 @@
 {
   "Name": "Rust",
-  "TargetDirectory": "D:\\Servers\\Rust\\RustDedicated_Data\\Managed",
+  "TargetDirectory": "D:\\Servers\\Rust-staging\\RustDedicated_Data\\Managed",
   "Manifests": [
     {
       "AssemblyName": "Assembly-CSharp.dll",
@@ -629,7 +629,7 @@
                 "Network.Connection"
               ]
             },
-            "MSILHash": "WvOS2IFISbg3Q0DZWeQXpyzMATuOi/mjgRCcAXPW0Ig=",
+            "MSILHash": "n440tv4ikO09eGJxEejuYZJpzWDuTok+cPEQ/k7CZuA=",
             "BaseHookName": null,
             "HookCategory": "Player"
           }
@@ -2362,7 +2362,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "fq7lTyfQF1kTML6LkausLSpK/b4YgbTgrXi0QMTt6hY=",
+            "MSILHash": "3jmJLsa/YfBwilUrcQ/SoD2Cjh8a7/JH7QRV20yPovQ=",
             "BaseHookName": null,
             "HookCategory": "Player"
           }
@@ -2389,7 +2389,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "GaC0rp1N7Zpn83aiHVuDLrlgT3NWhwSfF3Ak7uXZ4so=",
+            "MSILHash": "9hcCa/ewwJxAa3h/aLCXRvxVWks55HEbq8jtmrevpBs=",
             "BaseHookName": null,
             "HookCategory": "Server"
           }
@@ -2440,7 +2440,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "GaC0rp1N7Zpn83aiHVuDLrlgT3NWhwSfF3Ak7uXZ4so=",
+            "MSILHash": "9hcCa/ewwJxAa3h/aLCXRvxVWks55HEbq8jtmrevpBs=",
             "BaseHookName": "OnNewSave",
             "HookCategory": "Server"
           }
@@ -9500,7 +9500,7 @@
                 "BaseEntity/RPCMessage"
               ]
             },
-            "MSILHash": "K0d36FlcD3vP5TO9Itl0uDOOH/4LHDpM88EbW0HLQg0=",
+            "MSILHash": "dzYIExEQFopJ8Qn2a5GlneNufMINrhozxD6VAEogDAU=",
             "BaseHookName": null,
             "HookCategory": "Item"
           }
@@ -17943,7 +17943,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "4WCM3KhJ09U7tEXMhz9KnsAbr/Q86AAAlLOB80EKI9E=",
+            "MSILHash": "+BlcO3eWt/2kPJ3YRQfgqr+Qke7MgHz4C9WBG+xnPdU=",
             "BaseHookName": null,
             "HookCategory": "Server"
           }
@@ -35851,139 +35851,6 @@
             "Parameters": []
           },
           "MSILHash": "zgMgHGxQl6DY/dCpc/vZ4QMl7yltekTlGYOVDTOw6T4="
-        },
-        {
-          "Name": "BaseCrane::fuelSystem",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              1
-            ],
-            "Name": "fuelSystem",
-            "FullTypeName": "EntityFuelSystem BaseCrane::fuelSystem",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::handbrakeOn",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "handbrakeOn",
-            "FullTypeName": "System.Boolean BaseCrane::handbrakeOn",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::lastDamagePos",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "lastDamagePos",
-            "FullTypeName": "UnityEngine.Vector3 BaseCrane::lastDamagePos",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::lastDrivenTime",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "lastDrivenTime",
-            "FullTypeName": "System.Single BaseCrane::lastDrivenTime",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::lastExtensionArmState",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "lastExtensionArmState",
-            "FullTypeName": "System.Single BaseCrane::lastExtensionArmState",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::lastRaiseArmState",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "lastRaiseArmState",
-            "FullTypeName": "System.Single BaseCrane::lastRaiseArmState",
-            "Parameters": []
-          },
-          "MSILHash": ""
-        },
-        {
-          "Name": "BaseCrane::lastYawState",
-          "AssemblyName": "Assembly-CSharp.dll",
-          "TypeName": "BaseCrane",
-          "Type": 0,
-          "TargetExposure": [
-            2
-          ],
-          "Flagged": false,
-          "Signature": {
-            "Exposure": [
-              0
-            ],
-            "Name": "lastYawState",
-            "FullTypeName": "System.Single BaseCrane::lastYawState",
-            "Parameters": []
-          },
-          "MSILHash": ""
         },
         {
           "Name": "DecayEntity::upkeep",
